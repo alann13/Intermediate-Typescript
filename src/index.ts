@@ -1,0 +1,7 @@
+function createBanana() {
+  return { name: 'banana', color: 'yellow', mass: 183 }
+}
+
+export = createBanana
+
+// you can import those with the following syntax import createBanana = require('./filename)
