@@ -4,20 +4,21 @@
   "description": "This repo hosts code/notes taken from the course https://frontendmasters.com/courses/intermediate-typescript/",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "dev": "nodemon src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inthahouse/intermediate-typescript-fem.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "inThaHouse",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/inthahouse/intermediate-typescript-fem/issues"
   },
   "homepage": "https://github.com/inthahouse/intermediate-typescript-fem#readme",
-  "dependencies": {
+  "devDependencies": {
+    "nodemon": "^2.0.12",
     "ts-node": "^10.2.1"
   }
 }
